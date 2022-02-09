@@ -4,10 +4,10 @@ type Props = {
     current: string;
 }
 
-const Navbar = (props: Props) => {
+const YelpNavbar = (props: Props) => {
   return (
     <nav>Navbar</nav>
   )
 }
 
-export default Navbar
+export default YelpNavbar
