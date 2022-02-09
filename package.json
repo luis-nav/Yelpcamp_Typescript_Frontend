@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.1.9",
     "interfaces": "file:../interfaces"
   }
 }
