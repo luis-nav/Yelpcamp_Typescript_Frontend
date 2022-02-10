@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from './components/Footer';
 
 
 import YelpNavbar from './components/YelpNavbar';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/register' element={<div>register</div>}></Route>
 
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
