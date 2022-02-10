@@ -7,6 +7,8 @@ import YelpNavbar from './components/YelpNavbar';
 import Campgrounds from './pages/Campgrounds';
 import Home from './pages/Home';
 
+import "./app.css"
+
 function App() {
   return (
     <BrowserRouter>
